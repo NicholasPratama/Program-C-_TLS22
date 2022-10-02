@@ -1,0 +1,20 @@
+#include <iostream>
+
+    int main() {
+    using namespace std;
+
+	double air;
+	
+	cout<<"Udah berapa liter air kamu minum hari ini? "<<endl;
+	cin>>air;
+	
+	if(air<2)
+	{cout<<"Manteb! Tapi kamu masih harus minum "<< (2-air)<<"  "<<" liter air lagi yaa."<<endl;}
+	if(air==2)
+	{cout<<"Manteb banget! Kamu sudah mencukupi kebutuhan minummu hari ini.";}
+	if(air>2)
+	{cout<<"Manteb! Cuma pelan pelan yaa, sesuatu yang berlebihan juga gak baik :)";}
+	
+{
+    return 0;
+}
